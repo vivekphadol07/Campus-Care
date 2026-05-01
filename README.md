@@ -37,5 +37,19 @@ Campus Care provides a unified, multi-role web application with tailored dashboa
 * Socket.io (WebSockets for real-time features)
 * JWT (Role-based Authentication)
 
+## 🌐 Deployment & Demo Credentials
+**Live URL:** [https://campus-care-hazel.vercel.app/](https://campus-care-hazel.vercel.app/)
+
+To explore the platform, you can use the following demo credentials for different roles:
+
+| Role | Username / Email | Password |
+| :--- | :--- | :--- |
+| **Admin** | `vivek@campuscare.com` | `vivek123` |
+| **Placement Cell** | `placement@campuscare.com` | `password123` |
+| **Mess Owner** | `mess@campuscare.com` | `password123` |
+| **Class Teacher** | `rahul.sharma@campuscare.com` | `Rahul@123` |
+| **Subject Teacher** | `neha.pawar@campuscare.com` | `Neha@123` |
+| **Student** | `yogesh.patil@campuscare.com` | `Yogesh@123` |
+
 ## 🎯 Conclusion
 Campus Care transforms the disjointed college experience into a streamlined, interactive digital campus. By automating routine administrative tasks and providing real-time data visibility to all stakeholders, the platform allows institutions to focus on what truly matters: education and student success.
