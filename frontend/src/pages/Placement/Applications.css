@@ -1,0 +1,119 @@
+.apps-page {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.apps-header {
+    margin-bottom: 2.5rem;
+}
+
+.apps-header h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1e293b;
+}
+
+.apps-header p {
+    color: #64748b;
+}
+
+.apps-table-container {
+    background: white;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.apps-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.apps-table th {
+    background: #f8fafc;
+    padding: 1.25rem;
+    text-align: left;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.apps-table td {
+    padding: 1.25rem;
+    border-top: 1px solid #f1f5f9;
+    color: #1e293b;
+    font-size: 0.95rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    background: #e2e8f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #64748b;
+}
+
+.resume-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #6366f1;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.resume-link:hover { text-decoration: underline; }
+
+.status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 2rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.status-badge.applied { background: #eff6ff; color: #2563eb; }
+.status-badge.shortlisted { background: #f0fdf4; color: #16a34a; }
+.status-badge.interview { background: #fefce8; color: #ca8a04; }
+.status-badge.rejected { background: #fef2f2; color: #ef4444; }
+
+.action-btns {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.action-btns button {
+    width: 36px;
+    height: 36px;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.btn-shortlist { background: #f0fdf4; color: #16a34a; }
+.btn-reject { background: #fef2f2; color: #ef4444; }
+.btn-interview { background: #fefce8; color: #ca8a04; }
+
+.action-btns button:hover {
+    transform: scale(1.1);
+}
+
+.no-data {
+    text-align: center;
+    padding: 3rem;
+    color: #94a3b8;
+}
